@@ -4,6 +4,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 from sklearn.feature_selection import RFECV
+import matplotlib.pyplot as plt
 
 # ---------- Load the Training and Test Data ----------
 house_file_path = 'train.csv'
